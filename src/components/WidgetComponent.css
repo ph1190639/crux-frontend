@@ -1,0 +1,36 @@
+/* WidgetComponent.css */
+
+/* Set the CSS variable */
+:root {
+  --num-headers: 6; /* Set the number of headers */
+}
+
+/* Style for the container div */
+.WidgetComponent {
+  margin: 20px; /* Add margin as needed */
+}
+
+/* Style for the table */
+table {
+  border: 1px solid lightgray;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 30%; /* Set the width to 100% of the container */
+}
+
+/* Style for table headers */
+th {
+  
+  text-align: left;
+  width: calc(100% / var(--num-headers)); /* Equal width for each header */
+  max-width: calc(100% / var(--num-headers)); /* Responsive max-width */
+  box-sizing: border-box; /* Include padding and border in the width calculation */
+  border-radius: 5px;
+}
+
+/* Style for table cells */
+td {
+  border-right: 1px solid #ddd; /* Add border */
+  padding: 8px;
+  text-align: left;
+}

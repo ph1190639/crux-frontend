@@ -1,0 +1,44 @@
+.navbar__topToBottom {
+  display: flex;
+  flex-direction: column;  /* Align children top to bottom */
+  align-items: center;
+  justify-content: space-between;
+  border-right: 1px solid lightgray;
+  height: 100vh;
+  width: 50px;
+  background-color: #ffffff;
+  padding: 20px;
+  
+     
+}
+
+.navbar__top {
+  padding-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar__top > img{
+  margin-left: 10px;
+}
+.navbar__top .MuiSvgIcon-root{
+  border: none;
+}
+
+.navbar__avatar{
+  padding-bottom: 25px;
+}
+
+
+.navbar__topToBottom .MuiSvgIcon-root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;     
+  margin-top: 20px;   
+  font-size: 30px;      
+}
+
+.navbar__topToBottom .MuiSvgIcon-root:hover{
+  background-color: rgb(238, 251, 251);
+  cursor: pointer;
+}

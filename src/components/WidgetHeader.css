@@ -1,0 +1,20 @@
+/* WidgetHeader.css */
+
+.duration-header {
+  padding: 8px;
+  cursor: pointer;
+  border: 1px solid lightgray;
+  border-right: none;
+  position: relative;
+  flex: 1;
+  max-width: calc(100% / var(--num-headers));
+  
+  box-sizing: border-box; /* Include padding and border in the width calculation */
+  border-radius: 5px;
+}
+
+/* Highlight selected duration on hover */
+.duration-header:hover {
+  text-decoration: underline; /* Add underline on hover */
+  cursor: pointer;
+}

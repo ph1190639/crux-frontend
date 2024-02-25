@@ -1,0 +1,113 @@
+
+
+.navbar{
+  display: flex;
+  height: 100vh;
+}
+
+
+.navbar__topToBottom {
+  display: flex;
+  flex-direction: column;  /* Align children top to bottom */
+  align-items: center;
+  justify-content: space-between;
+  border-right: 1px solid lightgray;
+  height: 100vh;
+  background-color: #ffffff;
+  flex-shrink: 0;
+  flex: 0.1;
+  
+     
+}
+
+.navbar__top {
+  padding-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar__top > img{
+  margin-left: 10px;
+}
+.navbar__top .MuiSvgIcon-root{
+  border: none;
+}
+
+.navbar__avatar{
+  padding-bottom: 25px;
+}
+
+
+.navbar__topToBottom .MuiSvgIcon-root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;     
+  margin-top: 20px;   
+  font-size: 30px;      
+}
+
+.navbar__topToBottom .MuiSvgIcon-root:hover{
+  background-color: rgb(238, 251, 251);
+  cursor: pointer;
+}
+
+.navbar__leftToRight {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  margin-top: 0;
+  height: 7vh;
+  justify-content: space-between;
+  background-color: #fff;
+  border-bottom: 1px solid lightgray;
+  
+}
+
+.navLeft {
+  display: flex;
+  padding: 8px;
+  padding-left: 25px;
+  align-items: center;
+  
+}
+
+
+
+.navLeft > button, .MuiSvgIcon-root{
+  padding: 8px;
+  margin-left: 10px;
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 8px;
+  background-color: #fff;
+  align-items: center;
+
+}
+
+.navLeft > button:hover{
+  background-color: aliceblue;
+  cursor: pointer;
+}
+.navLeft > .MuiSvgIcon-root:hover{
+  background-color: aliceblue;
+  cursor: pointer;
+}
+
+.navRight{
+  display: flex;
+  padding: 8px;
+}
+
+.navRight > button {
+  padding: 8px;
+  align-items: center;
+  margin-right: 20px;
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 8px;
+  background-color: #fff;
+
+}
+
+.navRight > button:hover{
+  background-color: aliceblue;
+  cursor: pointer;
+}

@@ -1,0 +1,37 @@
+/* ZoomControls.css */
+
+.zoom-controls {
+  display: flex;
+  
+}
+.zoom__button> .MuiSvgIcon-root{
+  border: none;
+}
+
+.zoom-display{
+  border: 1px solid gray;
+  height: 42px;
+  align-items: center;
+  
+}
+
+.zoom__button{
+  border: 1px solid gray;
+  border-collapse: collapse;
+  height: 44px;
+}
+
+.zoom-controls button {
+  background-color: white;
+  color: #ccc;
+  padding: 0px;
+  right: 0;
+  top: 10px;
+  cursor: pointer;
+}
+
+.zoom-display {
+  font-size: 16px;
+  color: #333;
+  margin-right: 0px;
+}
